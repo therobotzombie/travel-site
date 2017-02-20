@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5894bba-9db7-4c93-af74-a90d49eafeb7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/modules/_feature-item.css" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_feature-item.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/modules/_generic-content-container.css" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_generic-content-container.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/modules/_section_title.css" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_section_title.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/temp/styles/styles.css" afterPath="$PROJECT_DIR$/app/temp/styles/styles.css" />
     </list>
     <ignored path="travel-site.iws" />
@@ -457,11 +453,12 @@
       <workItem from="1486586106277" duration="6363000" />
       <workItem from="1486981181887" duration="5989000" />
       <workItem from="1487603461033" duration="420000" />
+      <workItem from="1487607938298" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27209000" />
+    <option name="totallyTimeSpent" value="27275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
