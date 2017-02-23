@@ -21,8 +21,8 @@ Thumbs.db
 .settings
 .tmproj
 *.esproj
-.idea/
-**/.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
 nbproject
 *.sublime-project
 *.sublime-workspace
