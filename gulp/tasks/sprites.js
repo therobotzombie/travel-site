@@ -5,6 +5,11 @@ var gulp = require('gulp'),
     svg2png = require('gulp-svg2png');
 
 var config = {
+    shape: {
+        spacing: {
+            padding: 1
+        }
+    },
     mode: {
         css: {
             variables: {
@@ -22,7 +27,7 @@ var config = {
             }
         }
     }
-}
+};
 
 gulp.task('beginClean', function () {
     return del(['./app/temp/sprite', './app/assets/images/sprites']);
