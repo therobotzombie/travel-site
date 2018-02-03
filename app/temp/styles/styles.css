@@ -1039,11 +1039,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-8eb89099.svg');
+      background-image: url('../../assets/images/sprites/sprite-e79e95cc.svg');
     }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-8eb89099.png');
+      background-image: url('../../assets/images/sprites/sprite-e79e95cc.png');
     }
 
 .icon--clear-view-escapes {
@@ -1145,7 +1145,6 @@ Instead edit gulp/templates/sprite */
   z-index: 2;
   width: 100%;
   padding: 10px 0;
-  -webkit-transition: background-color .3s ease-out;
   transition: background-color .3s ease-out;
 }
 
@@ -1182,7 +1181,6 @@ Instead edit gulp/templates/sprite */
           transform: translateX(-50%) scale(.8);
   -webkit-transform-origin: 50% 0;
           transform-origin: 50% 0;
-  -webkit-transition: -webkit-transform .3s ease-out;
   transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
@@ -1225,7 +1223,6 @@ Instead edit gulp/templates/sprite */
   background: #fff;
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-transition: -webkit-transform .3s ease-out;
   transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
@@ -1240,7 +1237,6 @@ Instead edit gulp/templates/sprite */
   background: #fff;
   -webkit-transform-origin: 0 50%;
           transform-origin: 0 50%;
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
 
@@ -1254,7 +1250,6 @@ Instead edit gulp/templates/sprite */
   background: #fff;
   -webkit-transform-origin: 0 100%;
           transform-origin: 0 100%;
-  -webkit-transition: -webkit-transform .3s ease-out;
   transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
@@ -1287,7 +1282,6 @@ Instead edit gulp/templates/sprite */
   opacity: 0;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   position: relative;
   z-index: -10;
@@ -1394,7 +1388,6 @@ Instead edit gulp/templates/sprite */
 
 .reveal-item {
   opacity: 0;
-  -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
@@ -1418,7 +1411,6 @@ Instead edit gulp/templates/sprite */
   visibility: hidden;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 
 }

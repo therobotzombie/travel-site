@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
     svgSprite = require('gulp-svg-sprite'),
     rename = require('gulp-rename'),
-    del = require('del'),
-    svg2png = require('gulp-svg2png');
+    del = require('del');
 
 var config = {
     shape: {
@@ -42,7 +41,6 @@ gulp.task('createSprite', ['beginClean'], function() {
 
 gulp.task('createPngCopy', ['createSprite'], function () {
     return gulp.src('./app/temp/sprite/css/*.svg')
-        .pipe(svg2png())
         .pipe(gulp.dest('./app/temp/sprite/css'));
 });
 
